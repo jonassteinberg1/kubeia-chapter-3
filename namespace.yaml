@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kubeia
+  labels:
+    url: jonassteinberg.me
+    rel: "0.1.0"

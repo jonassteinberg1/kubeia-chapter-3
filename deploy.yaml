@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  namespace: kubeia
+  labels:
+    app: nginx
+    creation_method: manual
+    deployment_method: manual
+spec:
+  minReadySeconds: 60
+  paused: false
+   
